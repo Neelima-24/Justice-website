@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@600&family=Mukta:wght@200&display=swap');
+ 
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#2b2922;
+} 
+
+/* ----------------------------------- */
+/* ------------- NAVBAR -------------- */
+/* ----------------------------------- */
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 90px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  
+}
+.list-item1{
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+  margin-left: 250px;
+}
+
+.list-item {
+  font-weight: 12;
+  font-size: 25px;
+  color: grey;
+  cursor: pointer;
+}
+
+.button-small{
+  font-size: 20px;
+    background-color: transparent;
+    border: 1px solid ;
+    padding: 15px 56.72px 15px 56.32px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: yellow;
+  }
+
+.image2 {
+  display: flex;
+    margin-top: 50px;    
+}
+
+.image2 img{
+  width: 100%;
+  margin-bottom: 10px ;
+}
+
+.hero{
+  margin-top: 50px;
+    display: flex;
+}
+
+.hero-heading {
+  margin-left: 90px;
+  font-family: "monsterrat";
+    font-size: 80px;
+    color: #ffffff;  
+    margin-right: 100px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.hero-body{
+   margin-top: 30px;
+    font-family:"monsterrat";
+    font-weight: 5px;
+    font-size: 25px;
+    color: grey; 
+    margin-left: 100px;
+}
+
+ .bottom{
+   height: 60px; 
+  width:60px;
+ }
+
+.button-large-prev{
+ height: 30px;
+ width: 30px;
+ background-color: #ffffff;
+ border-radius: 50%;
+ margin-left: 8px;
+  }
+
+  .less-than{
+    margin-top: 5px;
+   position: absolute; 
+    margin-left: 10px;
+    
+  }
+
+  .button-large-next1{
+
+
+    /* font-weight: 5px;
+    font-size: 19px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: darkkhaki;
+    padding: 1px 1px 1px 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin-left:5px ;
+    margin-right: 5px;
+  } */
+
+
+  height: 30px;
+ width: 30px;
+ background-color: #ffffff;
+ border-radius: 50%;
+ margin-left: 8px;
+  
+}
+
+.less-{
+  margin-top: 5px;
+ position: absolute; 
+  margin-left: 10px;
+  
+}
